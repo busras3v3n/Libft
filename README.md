@@ -11,18 +11,18 @@
 
 Each function in the library is prefixed with 'ft_' and named to mirror the function it replicates.
 
-| ctype.h | string.h | strings.h | stdlib.h |
-| ------- | -------- | --------- | -------- |
-| isalpha |  strlen  |   bzero   |  atoi    |
-| isdigit |  memset  |           | calloc   |
-| isalnum |  memcpy  |
-| isascii |  memmove |
-| isprint |  strlcpy |
-| toupper |  strlcat |
-| tolower |  strchr  |
-|         |  strrchr |
-|         |  strncmp |
-|         |  memchr  |
-|         |  memcmp  |
-|         |  strnstr |
-|         |  strdup  |
+| header   | 0 | 1 | 2 | 3 |
+| -------- | -------- | --------- | -------- | -------- |
+|ctype.h|isalpha|isalnum|isascii|isprint|toupper|tolower|
+
+| header   | 0 |
+| -------- | -------- |
+|strings.h|bzero|
+
+| header   | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
+| -------- | -------- | --------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+|string.h|strlen|memset| memcpy|memmove|strlcpy|strlcat|strchr|strncmp|memchr|memcmp|strnstr|strdup
+
+| header   | 0 | 1 |
+| -------- | -------- | --------- |
+|stdlib.h|atoi|calloc|
