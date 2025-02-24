@@ -5,7 +5,7 @@
 
  ## Usage
  `make` to compile the library (libft.a)  
- `make bonus` to compile the library with bonus functions (libft.a)
+ `make bonus` to compile the library with bonus functions
 
  ## Functions
 
