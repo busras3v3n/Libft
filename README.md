@@ -33,3 +33,13 @@ Each function in the library is prefixed with 'ft_' and named to mirror the func
 | name   | prototype | parameter | parameter | return | desc |
 | -------- | -------- | --------- | -------- | -------- | -------- |
 | [ft_substr](./ft_substr.c) | char  *ft_substr(char const *s, unsigned int start, size_t len) |
+| [ft_strjoin](./ft_strjoin.c) |
+| [ft_strtrim](./ft_strtrim.c) |
+| [ft_split](./ft_split.c) |
+| [ft_itoa](./ft_itoa.c) |
+| [ft_strmapi](./ft_strmapi.c) |
+| [ft_striteri](./ft_striteri.c) |
+| [ft_putchar_fd](./ft_putchar_fd.c) |
+| [ft_putstr_fd](./ft_putstr_fd.c) |
+| [ft_putendl_fd](./ft_putendl_fd.c) |
+| [ft_putnbr_fd](./ft_putnbr_fd.c) |
