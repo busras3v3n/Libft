@@ -30,16 +30,16 @@ Each function in the library is prefixed with 'ft_' and named to mirror the func
 
 ## Additional Functions
 
-| name   | prototype | parameter | parameter | return | desc |
-| -------- | -------- | --------- | -------- | -------- | -------- |
+| name   | prototype | parameters | return | desc |
+| -------- | -------- | --------- | -------- | -------- |
 | [ft_substr](./ft_substr.c) | char  *ft_substr(char const *s, unsigned int start, size_t len) |
-| [ft_strjoin](./ft_strjoin.c) |
-| [ft_strtrim](./ft_strtrim.c) |
-| [ft_split](./ft_split.c) |
-| [ft_itoa](./ft_itoa.c) |
-| [ft_strmapi](./ft_strmapi.c) |
-| [ft_striteri](./ft_striteri.c) |
-| [ft_putchar_fd](./ft_putchar_fd.c) |
-| [ft_putstr_fd](./ft_putstr_fd.c) |
-| [ft_putendl_fd](./ft_putendl_fd.c) |
-| [ft_putnbr_fd](./ft_putnbr_fd.c) |
+| [ft_strjoin](./ft_strjoin.c) | char *ft_strjoin(char const *s1, char const *s2) |
+| [ft_strtrim](./ft_strtrim.c) | char *ft_strtrim(char const *s1, char const *set) |
+| [ft_split](./ft_split.c) | char **ft_split(char const *s, char c)
+| [ft_itoa](./ft_itoa.c) | char *ft_itoa(int n)
+| [ft_strmapi](./ft_strmapi.c) | char *ft_strmapi(char const *s, char (*f)(unsigned int, char))
+| [ft_striteri](./ft_striteri.c) | void ft_striteri(char *s, void (*f)(unsigned int, char\*))
+| [ft_putchar_fd](./ft_putchar_fd.c) | void ft_putchar_fd(char c, int fd)
+| [ft_putstr_fd](./ft_putstr_fd.c) | void ft_putstr_fd(char *s, int fd)
+| [ft_putendl_fd](./ft_putendl_fd.c) | void ft_putendl_fd(char *s, int fd)
+| [ft_putnbr_fd](./ft_putnbr_fd.c) | void ft_putnbr_fd(int n, int fd)
