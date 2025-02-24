@@ -13,7 +13,7 @@ Each function in the library is prefixed with 'ft_' and named to mirror the func
 
 | header   | 0 | 1 | 2 | 3 |
 | -------- | -------- | --------- | -------- | -------- |
-|ctype.h|[isalpha](./ft_isalpha.c)|isalnum|isascii|isprint|toupper|tolower|
+|ctype.h|[ft_isalpha](./ft_isalpha.c)|[ft_isalnum](./ft_isalnum.c)|[ft_isascii](./ft_isascii.c)|[ft_isprint](./ft_isprint.c)|[ft_toupper](./ft_toupper.c)|[ft_tolower](./ft_tolower.c)|
 
 | header   | 0 |
 | -------- | -------- |
