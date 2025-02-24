@@ -27,3 +27,9 @@ Each function in the library is prefixed with 'ft_' and named to mirror the func
 | header   | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
 | -------- | -------- | --------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
 |string.h|[ft_strlen](./ft_strlen.c)|[ft_memset](./ft_memset.c)|[ft_memcpy](./ft_memcpy.c)|[ft_memmove](./ft_memmove.c)|[ft_strlcpy](./ft_strlcpy.c)|[ft_strlcat](./ft_strlcat.c)|[ft_strchr](ft_strchr.c)|[ft_strncmp](./ft_strncmp.c)|[ft_memchr](./ft_memchr.c)|[ft_memcmp](./ft_memcmp.c)|[ft_strnstr](./ft_strnstr.c)|[ft_strdup](./ft_strdup.c)
+
+## Additional Functions
+
+| name   | prototype | parameter | parameter | return | desc |
+| -------- | -------- | --------- | -------- | -------- | -------- |
+| [ft_substr](./ft_substr.c) | char  *ft_substr(char const *s, unsigned int start, size_t len) |
