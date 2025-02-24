@@ -11,18 +11,19 @@
 
 Each function in the library is prefixed with 'ft_' and named to mirror the function it replicates.
 
+| header   | 0 |
+| -------- | -------- |
+|strings.h|[ft_bzero](./ft_bzero.c)|
+
+| header   | 0 | 1 |
+| -------- | -------- | --------- |
+|stdlib.h|[ft_atoi](./ft_atoi.c)|[ft_calloc](./ft_calloc.c)|
+
+
 | header   | 0 | 1 | 2 | 3 |
 | -------- | -------- | --------- | -------- | -------- |
 |ctype.h|[ft_isalpha](./ft_isalpha.c)|[ft_isalnum](./ft_isalnum.c)|[ft_isascii](./ft_isascii.c)|[ft_isprint](./ft_isprint.c)|[ft_toupper](./ft_toupper.c)|[ft_tolower](./ft_tolower.c)|
 
-| header   | 0 |
-| -------- | -------- |
-|strings.h|bzero|
-
 | header   | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
 | -------- | -------- | --------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-|string.h|strlen|memset| memcpy|memmove|strlcpy|strlcat|strchr|strncmp|memchr|memcmp|strnstr|strdup
-
-| header   | 0 | 1 |
-| -------- | -------- | --------- |
-|stdlib.h|atoi|calloc|
+|string.h|[ft_strlen](./ft_strlen.c)|[ft_memset](./ft_memset.c)|[ft_memcpy](./ft_memcpy.c)|[ft_memmove](./ft_memmove.c)|[ft_strlcpy](./ft_strlcpy.c)|[ft_strlcat](./ft_strlcat.c)|[ft_strchr](ft_strchr.c)|[ft_strncmp](./ft_strncmp.c)|[ft_memchr](./ft_memchr.c)|[ft_memcmp](./ft_memcmp.c)|[ft_strnstr](./ft_strnstr.c)|[ft_strdup](./ft_strdup.c)
