@@ -10,7 +10,7 @@
 
  ## Functions
 
-Each function in the library is prefixed with 'ft_' and named to mirror the function it replicates.
+Each function in the library is prefixed with 'ft_' and named to mirror the function it replicates.<br>
 
 | header   | 0 |
 | -------- | -------- |
@@ -31,7 +31,7 @@ Each function in the library is prefixed with 'ft_' and named to mirror the func
 
 
 ## Additional Functions
-
+Since these functions either aren't standart library functions or work different than their originals, I've included explanations for each.<br>
 | name   | prototype | parameters | return value | description |
 | -------- | -------- | --------- | -------- | -------- |
 | [ft_substr](./ft_substr.c) | char  *ft_substr(char const *s, unsigned int start, size_t len) | s: the parent string<br><br>start: the starting index of the substring inside the parent string<br><br>len: the maximum length of the substring | Substring.<br>NULL if allocation fails. | Allocates memory with malloc(3) and returns a substring derived from "s". The substring starts from the "start" index of "s" and the max length of it is "len".
@@ -49,7 +49,7 @@ Each function in the library is prefixed with 'ft_' and named to mirror the func
 ## Bonus Functions
 
 The bonus functions in this library are functions for creating and manipulating linked lists.<br>
-The linked list definition I made is in the [header file](./libft.h).
+You can find the definition of t_list in [the header file](./libft.h).
 
 | name   | prototype | parameters | return value | description |
 | -------- | -------- | --------- | -------- | -------- |
