@@ -34,8 +34,8 @@ Each function in the library is prefixed with 'ft_' and named to mirror the func
 
 | name   | prototype | parameters | return | desc |
 | -------- | -------- | --------- | -------- | -------- |
-| [ft_substr](./ft_substr.c) | char  *ft_substr(char const *s, unsigned int start, size_t len) | s: the parent string<br><br>start: the starting index of the substring inside the parent string<br><br>len: the maximum length of the substring
-| [ft_strjoin](./ft_strjoin.c) | char *ft_strjoin(char const *s1, char const *s2) | s1: prefix string<br><br>s2: suffix string
+| [ft_substr](./ft_substr.c) | char  *ft_substr(char const *s, unsigned int start, size_t len) | s: the parent string<br><br>start: the starting index of the substring inside the parent string<br><br>len: the maximum length of the substring | Substring.<br>NULL if allocation fails. | Allocates memory with malloc(3) and returns a substring derived from "s". The substring starts from the "start" index of "s" and the max length of it is "len".
+| [ft_strjoin](./ft_strjoin.c) | char *ft_strjoin(char const *s1, char const *s2) | s1: prefix string<br><br>s2: suffix string | concatenated string.<br>NULL if allocation fails. | Allocates memory with malloc(3) and and returns the string made by concatenating 's1' and 's2'.
 | [ft_strtrim](./ft_strtrim.c) | char *ft_strtrim(char const *s1, char const *set) | s1: the string that would be trimmed<br><br>set: character to trim from s1
 | [ft_split](./ft_split.c) | char **ft_split(char const *s, char c) | s: the string to be split<br><br>c: separator character
 | [ft_itoa](./ft_itoa.c) | char *ft_itoa(int n) | n: integer value to be converted
