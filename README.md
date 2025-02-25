@@ -1,10 +1,10 @@
 # Libft - C Library
 
- Libft is a C library projects that includes replicas of some standart library functions in C and some additional ones that I myself coded.  
+ Libft is a C library projects that includes replicas of some standart library functions in C and some additional ones that I coded.  
  I use this library in most of my C projects.
 
  ## Usage
- `make` to compile the library (libft.a)  
+ `make` to compile the library (libft.a)<br>
  `make bonus` to compile the library with bonus functions
 
 
@@ -34,14 +34,14 @@ Each function in the library is prefixed with 'ft_' and named to mirror the func
 
 | name   | prototype | parameters | return | desc |
 | -------- | -------- | --------- | -------- | -------- |
-| [ft_substr](./ft_substr.c) | char  *ft_substr(char const *s, unsigned int start, size_t len) | s: the parent string<br>start: the starting index of the substring inside the parent string<br>len: the maximum length of the substring
-| [ft_strjoin](./ft_strjoin.c) | char *ft_strjoin(char const *s1, char const *s2) | s1: prefix string<br>s2: suffix string
-| [ft_strtrim](./ft_strtrim.c) | char *ft_strtrim(char const *s1, char const *set) | s1: the string that would be trimmed<br>set: character to trim from s1
-| [ft_split](./ft_split.c) | char **ft_split(char const *s, char c) | s: the string to be split<br>c: separator character
+| [ft_substr](./ft_substr.c) | char  *ft_substr(char const *s, unsigned int start, size_t len) | s: the parent string<br><br>start: the starting index of the substring inside the parent string<br><br>len: the maximum length of the substring
+| [ft_strjoin](./ft_strjoin.c) | char *ft_strjoin(char const *s1, char const *s2) | s1: prefix string<br><br>s2: suffix string
+| [ft_strtrim](./ft_strtrim.c) | char *ft_strtrim(char const *s1, char const *set) | s1: the string that would be trimmed<br><br>set: character to trim from s1
+| [ft_split](./ft_split.c) | char **ft_split(char const *s, char c) | s: the string to be split<br><br>c: separator character
 | [ft_itoa](./ft_itoa.c) | char *ft_itoa(int n) | n: integer value to be converted
-| [ft_strmapi](./ft_strmapi.c) | char *ft_strmapi(char const *s, char (*f)(unsigned int, char)) | s: string to iterate through<br>f: the function to be applied to every character of s
-| [ft_striteri](./ft_striteri.c) | void ft_striteri(char *s, void (*f)(unsigned int, char\*)) | s: string to iterate through<br>f: the function to be applied to every character of s
-| [ft_putchar_fd](./ft_putchar_fd.c) | void ft_putchar_fd(char c, int fd) | c: character to be printed<br>fd: file descriptor for output
-| [ft_putstr_fd](./ft_putstr_fd.c) | void ft_putstr_fd(char *s, int fd) | s: string to be printed<br>fd: file descriptor for output
-| [ft_putendl_fd](./ft_putendl_fd.c) | void ft_putendl_fd(char *s, int fd) | s: string to be printed<br>fd: file descriptor for output
-| [ft_putnbr_fd](./ft_putnbr_fd.c) | void ft_putnbr_fd(int n, int fd) | n: integer to be printed<br>fd: file descriptor for output
+| [ft_strmapi](./ft_strmapi.c) | char *ft_strmapi(char const *s, char (*f)(unsigned int, char)) | s: string to iterate through<br><br>f: the function to be applied to every character of s
+| [ft_striteri](./ft_striteri.c) | void ft_striteri(char *s, void (*f)(unsigned int, char\*)) | s: string to iterate through<br><br>f: the function to be applied to every character of s
+| [ft_putchar_fd](./ft_putchar_fd.c) | void ft_putchar_fd(char c, int fd) | c: character to be printed<br><br>fd: file descriptor for output
+| [ft_putstr_fd](./ft_putstr_fd.c) | void ft_putstr_fd(char *s, int fd) | s: string to be printed<br><br>fd: file descriptor for output
+| [ft_putendl_fd](./ft_putendl_fd.c) | void ft_putendl_fd(char *s, int fd) | s: string to be printed<br><br>fd: file descriptor for output
+| [ft_putnbr_fd](./ft_putnbr_fd.c) | void ft_putnbr_fd(int n, int fd) | n: integer to be printed<br><br>fd: file descriptor for output
