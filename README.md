@@ -1,6 +1,6 @@
 # Libft - C Library
 
- Libft is a C library projects that includes replicas of some standart library functions in C and some additional ones that I coded.  
+ Libft is a C library project that includes replicas of some standart library functions in C and some additional ones that I coded.  
  I use this library in most of my C projects.
 
  ## Usage
